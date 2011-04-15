@@ -8,6 +8,18 @@ About
 This library make your C++ program to show a stacktrace like Java
 when your program crash on an uncaught exception.
 
+Install
+-------
+
+To install, you need to install libunwind.
+Then do following instructions:
+
+::
+
+  $ ./waf configure
+  $ ./waf build
+  $ sudo ./waf install
+
 Usage
 -----
 
