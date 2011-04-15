@@ -55,6 +55,6 @@ It becomes to:
 
   $ g++ test.cpp -g -O0 -lstacktrace++ && ./a.out
   Uncaught exception "std::runtime_error": hoge
-  	foo()	(/home/tanakh/project/stacktracecpp/test.cpp:7)
+    foo()	(/home/tanakh/project/stacktracecpp/test.cpp:7)
     main	(/home/tanakh/project/stacktracecpp/test.cpp:13)
-	  _start	(??:0)
+    _start	(??:0)
